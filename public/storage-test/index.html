@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello, Blockstack!</title>
+  <link rel="stylesheet" href="../bootstrap.min.css" />
+  <script src="../bundle.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Analysis of storage</h1>
+    <p>I am trying to document all the functions that can be accessed on storage</p>
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <h1>Enter the data</h1>
+        <div class="alert alert-danger">
+          <textarea rows="4" cols="20" class="input-group" id="content-to-be-saved">Shahzaib</textarea>
+          <label class="input-group" for="save-file-name">File Name To save</label>
+          <input type="text" value="" id="save-file-name" class="input-group">
+          <button type="button" class="btn btn-block btn-success" id="save">Save</button>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <h1>Reading File</h1>
+        <div class="alert alert-success">
+          <label for="read-file-name" class="input-group">Read the file</label>
+          <input type="text" class="input-group" id="read-file-name">
+          <button type="button" class="btn btn-block btn-success" id="read">Read</button>
+          <p id="file-content"></p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <h1>Log</h1>
+        <div class="alert alert-danger">
+          <p id="error"></p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <h1>Bucket</h1>
+        <div class="alert alert-danger">
+          <p id="bucket-index"></p>
+        </div>
+        <button type="button" class="btn btn-success btn-block" id="open-bucket">Open Bucket</button>
+      </div>
+    </div>
+  </div><!-- container-->
+</body>
+</html>
