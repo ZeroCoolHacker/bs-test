@@ -15,3 +15,10 @@ Finally start the development server
 ```bash
 > npm run start
 ```
+# To do
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] Retrieve User profile information
+- [x] Store a file in Gaia
+- [X] Read a file from **Gaia**
+- [ ] Delete a file from **Gaia**
+- [ ] Access Another User's **Gaia** storage
