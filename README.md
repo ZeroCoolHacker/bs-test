@@ -20,5 +20,6 @@ Finally start the development server
 - [x] Retrieve User profile information
 - [x] Store a file in Gaia
 - [X] Read a file from **Gaia**
+- [ ] Create a file index
 - [ ] Delete a file from **Gaia**
 - [ ] Access Another User's **Gaia** storage
